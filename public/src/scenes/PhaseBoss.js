@@ -1078,7 +1078,7 @@ export class PhaseBoss extends Phaser.Scene {
                     this.tweens.add({
                         targets: overlay,
                         alpha: 0,
-                        duration: 250,
+                        duration: 350,
                         onComplete: irParaCutscene
                     });
                 });

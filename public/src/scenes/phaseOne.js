@@ -443,7 +443,7 @@ export class PhaseOne extends Phaser.Scene {
                     this.tweens.add({
                         targets: overlay,
                         alpha: 0,
-                        duration: 250,
+                        duration: 400,
                         onComplete: () => {
                             this.scene.start("Room", {
                                 personagem: this.registry.get('personagem') ?? 0,

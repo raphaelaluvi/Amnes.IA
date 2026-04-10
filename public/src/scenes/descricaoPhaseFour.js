@@ -10,7 +10,7 @@ export class DescricaoPhaseFour extends Phaser.Scene {
 
     preload() {
         this.load.on('loaderror', () => { });
-        this.load.image("jogoFour", "public/assets/fundoChefe.webp");
+        this.load.image("jogoFour", "public/assets/fundochefe.webp");
         this.load.image("descricao4", "public/assets/descricao4.webp");
         this.load.image("tecla", "public/assets/tecla.webp");
 
